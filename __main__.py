@@ -1,1 +1,5 @@
-import turtle
+from tkinter import *
+
+root = Tk()
+
+root.mainloop()
