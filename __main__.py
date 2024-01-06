@@ -8,8 +8,10 @@ HEIGHT = str((root.winfo_screenheight())//5)
 root_size = '400x350+'+WIDTH+'+'+HEIGHT
 root.geometry(root_size)
 
-text = Label(root,text='Auto_Name昵称生成器',font=('TkCaptionFont',18))
+title = Label(root,text='Auto_Name昵称生成器',font=('TkCaptionFont',18))
+title.pack()
 
-text.pack()
+Start = Button()
+Start.pack()
 
 root.mainloop()
